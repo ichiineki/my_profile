@@ -1,0 +1,31 @@
+body{
+
+}
+
+li{
+  list-style: none;
+}
+header{
+  position: fixed;
+}
+
+.Top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+h2.en_header{
+  font-family: "mina", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+
+}
