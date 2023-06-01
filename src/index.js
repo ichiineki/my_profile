@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 import Header from './Header';
+import AboutMe from './AboutMe';
 import Top from './Top';
+import Bg from './Background';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Bg />
     <Top />
+    <AboutMe />
   </React.StrictMode>
 );
 
